@@ -140,11 +140,11 @@ under the License.
     <url>https://ci-maven.apache.org/job/Maven/job/maven-box/job/maven/</url>
   </ciManagement>
   <distributionManagement>
-    <site>
-      <id>apache.website</id>
-      <url>scm:svn:https://svn.apache.org/repos/asf/maven/website/components/${maven.site.path}</url>
-    </site>
-    <downloadUrl>https://maven.apache.org/download.html</downloadUrl>
+   
+      <id>nexus</id>
+      <url>http://18.188.132.89:8081/repository/maven-snapshots/</url>
+   
+  
   </distributionManagement>
 
   <properties>
